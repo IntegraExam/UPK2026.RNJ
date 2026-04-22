@@ -279,7 +279,7 @@ const soalUraian = [
 "Read the following text, then make a summary in English (maximum 3 sentences): Climate change affects various aspects of human life, including health, food security, and natural disasters. People must work together to reduce emissions and adapt to new challenges."
 ];
 
-   // --- 3. CORE SYSTEM ---
+  // --- 3. CORE SYSTEM ---
     let violationCount = 0, MAX_VIOLATIONS = 3, timeLeft = 90 * 60, isBypass = false;
     let savedData = JSON.parse(localStorage.getItem(SESSION_KEY)) || { pg: {}, uraian: {} };
     let audioCtx, oscillator;
